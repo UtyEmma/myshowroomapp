@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <!-- font awesome 5 free -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+  <link rel="stylesheet" href="assets/css/about.css">
+
+  <link rel="stylesheet" href="assets/css/lineIcons.css">
+
+  <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+  <link rel="stylesheet" href="assets/css/flex-slider.css">
+
+  <!-- Poppins font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/app.css">
+
+  <title>My Showroom App | Component</title>
+</head>
+
+<body>
+
+  <!--Offer Alert ================================ -->
+  <div class="offer-alert">
+    <div class="offer-alert__container container">
+      <span>🔥😍 Preview All Beautiful Templates &amp; UI Blocks</span> <a href="https://frontendor.com" class="offer-alert__btn">PREVIEW ALL</a>
+    </div>
+  </div>
+    
+  <!--Hero ====================================== -->
+  <header class="hero container-fluid">
+    <nav class="hero-nav container-lg px-lg-4 px-lg-0 mx-auto">
+        <ul class="nav w-100 list-unstyled align-items-center p-0">
+          <li class="hero-nav__item">
+            <img class="hero-nav__logo" src="assets/imgs/logo.svg">
+          </li>
+          <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
+            <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
+              <li class="flex-grow-1">
+                <ul class="nav nav--lg-side list-unstyled align-items-center p-0">
+                  <li class="hero-nav__item">
+                    <a href="#contact-us" class="hero-nav__link">Contact Us</a>
+                  </li>
+                  <li class="hero-nav__item">
+                    <a href="#faq" class="hero-nav__link">FAQ</a>
+                  </li>
+                  <li class="hero-nav__item">
+                    <a href="#pricing" class="hero-nav__link">Pricing</a>
+                  </li>
+                  <li class="hero-nav__item">
+                    <a href="#testimonials" class="hero-nav__link">Testimonials</a>
+                  </li>
+                  <li class="hero-nav__item">
+                    <a href="#features" class="hero-nav__link">Features</a>
+                  </li>
+                  <li class="hero-nav__item">
+                    <a href="#product" class="hero-nav__link">Product</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+      
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="ft-menu__close-btn animated">
+            <svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+                clip-rule="evenodd" />
+              <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </li>
+        <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item">
+          <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+            class="text-center px-2">
+            <i class="lni lni-menu lni-32"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="hero__content container-lg mx-auto ">
+      <div class="row px-0 mx-0 align-items-center">
+        <div class="col-lg-6 px-lg-0 hero__content_left">
+          <h1 class="hero__title mb-3">
+            Make it easier for customers to <br>find <span class="highlight">You</span> 
+          </h1>
+          <p class="hero__paragraph mb-3">
+            My Showroom App allows you connect with customers, promote your business and grow your sales online. 
+          </p>
+          <div class="hero__btns-container">
+            <a href='https://play.google.com/store/apps/details?id=com.myshowroom.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' class="btn google-play-btn"><img alt='Get it on Google Play' src='./assets/imgs/google-play-badge.png'/></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 hero__content_right">
+          <div class="hero__img-container">
+            <img src='./assets/imgs/phone.png' class="hero__img" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================== -->
+
+ <!-- ========================= feature-section start ========================= -->
+ <section id="feature" class="feature-section pt-80">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-xxl-5 col-xl-7 col-lg-8">
+        <div class="block__header text-center mb-30">
+          <h1 class="block__title mb-25 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Showcase Your <span class="highlight">Products</span> on the Go</h1>
+          <p class="wow fadeInUp block__paragraph" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Lorem ipsum dolor samet consetetur sadipscing elitr, serewd diam nonumy eirmod tempor invidunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-7 col-md-7 col-sm-10">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="single-feature row-sm">
+              <div class="icon color-1 col-md-4">
+                <i class="lni lni-stats-up"></i>
+              </div>
+              <div class="content col-md-8">
+                <h3>Easy To Use</h3>
+                <p>Lorem ipsum dolor samet consetet sadip scing elitr serewd diam nonumy eirmod tempor invidunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="single-feature">
+              <div class="icon color-2">
+                <i class="lni lni-dollar"></i>
+              </div>
+              <div class="content">
+                <h3>Boost sales</h3>
+                <p>Lorem ipsum dolor samet consetet sadip scing elitr serewd diam nonumy eirmod tempor invidunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="single-feature">
+              <div class="icon color-3">
+                <i class="lni lni-users"></i>
+              </div>
+              <div class="content">
+                <h3>Grow your brand</h3>
+                <p>Lorem ipsum dolor samet consetet sadip scing elitr serewd diam nonumy eirmod tempor invidunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="single-feature">
+              <div class="icon color-3">
+                <i class="lni lni-users"></i>
+              </div>
+              <div class="content">
+                <h3>Grow your brand</h3>
+                <p>Lorem ipsum dolor samet consetet sadip scing elitr serewd diam nonumy eirmod tempor invidunt ut labore.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-lg-5 col-md-8 col-sm-12 feature-section-img">
+          <img src="./assets/imgs/card_photo.png" alt="" class="img-fluid">
+        </div>
+      </div>
+  </div>
+    
+    
+</section>
+<!-- ========================= feature-section end ========================= -->
+
+
+<!--====== DOWNLOAD PART START ======-->
+    
+<section id="download" class="download-area-a">
+  <div class="container">
+      <div class="row justify-content-center container-sm align-items-center">
+          <div class="col-lg-6 col-md-9">
+              <div class="download-image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                  <img class="image" src="./assets/imgs/card_photo.png" alt="download">
+                  
+                  <div class="download-shape-1"></div>
+                  <div class="download-shape-2">
+                      <img class="svg" src="assets/imgs/download-shape.svg" alt="shape">
+                  </div>
+              </div> <!-- download image -->
+          </div>
+          <div class="col-lg-6">
+              <div class="download-content mt-45 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                  <h3 class="block__title">Download and Start Using!</h3>
+                  <p class="text">Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq Alii nusquam cuduo, vim eusde consulatu percipitur, meis dolor comprehensam at vij. Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq nusquam.</p>
+                  <a href='https://play.google.com/store/apps/details?id=com.myshowroom.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' class="btn google-play-btn"><img alt='Get it on Google Play' src='./assets/imgs/google-play-badge.png'/></a>
+              </div> <!-- download image -->
+          </div>
+      </div> <!-- row -->
+  </div> <!-- container -->
+</section>
+
+<!--====== DOWNLOAD PART ENDS ======-->
+
+
+ <!-- ***** Testimonials Starts ***** -->
+ <section class="section" id="testimonials">
+  <div class="container">
+      <div class="row justify-content-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-5 col-xl-7 col-lg-8">
+              <div class="block__header text-center mb-60">
+                <h1 class="block__title mb-25 wow fadeInUp" data-wow-delay=".2s">What our users think about us</h1>
+                <p class="mb-25 wow fadeInUp block__paragraph" data-wow-delay=".2s">Lorem ipsum dolor samet consenter discing elitr, serewd diam nonumy eirmod tempor invidunt.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
+              data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+              <div class="owl-carousel owl-theme">
+                  <div class="item service-item">
+                      <div class="author">
+                          <i><img src="assets/imgs/testimonial-author-1.png" alt="Author One"></i>
+                      </div>
+                      <div class="testimonial-content">
+                          <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                          </ul>
+                          <h4>Jonathan Smart</h4>
+                          <p>“Nullam hendrerit, elit a semper pharetra, ipsum nibh tristique tortor, in tempus
+                              urna elit in mauris.”</p>
+                          <span>Besta CTO</span>
+                      </div>
+                  </div>
+                  <div class="item service-item">
+                      <div class="author">
+                          <i><img src="assets/imgs/testimonial-author-1.png" alt="Second Author"></i>
+                      </div>
+                      <div class="testimonial-content">
+                          <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                          </ul>
+                          <h4>Martino Tino</h4>
+                          <p>“Morbi non mi luctus felis molestie scelerisque. In ac libero viverra, placerat est
+                              interdum, rhoncus leo.”</p>
+                          <span>Web Analyst</span>
+                      </div>
+                  </div>
+                  <div class="item service-item">
+                      <div class="author">
+                          <i><img src="assets/imgs/testimonial-author-1.png" alt="Author Third"></i>
+                      </div>
+                      <div class="testimonial-content">
+                          <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                          </ul>
+                          <h4>George Tasa</h4>
+                          <p>“Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
+                              congue a fringilla sed, maximus et urna.”</p>
+                          <span>System Admin</span>
+                      </div>
+                  </div>
+                  <div class="item service-item">
+                      <div class="author">
+                          <i><img src="assets/imgs/testimonial-author-1.png" alt="Fourth Author"></i>
+                      </div>
+                      <div class="testimonial-content">
+                          <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                          </ul>
+                          <h4>Sir James</h4>
+                          <p>"Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
+                              congue a fringilla sed, maximus et urna."</p>
+                          <span>New Villager</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- ***** Testimonials Ends ***** -->
+
+
+<!-- ========================= faq-section start ========================= -->
+<section id="faq" class="faq-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xxl-5 col-xl-6 col-lg-7">
+        <div class="block__header text-center mb-60">
+          <h1 class="block__title mb-25 wow fadeInUp" data-wow-delay=".2s">Frequently Asked Questions</h1>
+          <p class="mb-25 wow fadeInUp block__paragraph" data-wow-delay=".2s">Lorem ipsum dolor samet consenter discing elitr, serewd diam nonumy eirmod tempor invidunt.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="accordion faq-wrapper" id="accordionExample">
+          <div class="single-faq">
+            <button class="w-100" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Can I make an online appointment?
+            </button>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="faq-content">
+                Lorem ipsum dolor samet consenter discing elitr, serewd diam nonumy eirmod tempor invidunt.Lorem ipsum colewort samet consenter discing elitr.
+              </div>
+            </div>
+          </div>
+          <div class="single-faq">
+            <button class="w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How can I Select a best doctor?
+            </button>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="faq-content">
+                Lorem ipsum dolor samet consenter discing elitr, serewd diam nonumy eirmod tempor invidunt.Lorem ipsum colewort samet consenter discing elitr.
+              </div>
+            </div>
+          </div>
+          <div class="single-faq">
+            <button class="w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How can i edit my personal information?
+            </button>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="faq-content">
+                Lorem ipsum dolor samet consenter discing elitr, serewd diam nonumy eirmod tempor invidunt.Lorem ipsum colewort samet consenter discing elitr.
+              </div>
+            </div>
+          </div>
+          <div class="single-faq">
+            <button class="w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              How can i edit my personal information?
+            </button>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="faq-content">
+                Lorem ipsum dolor samet consenter discing elitr, serewd diam nonumy eirmod tempor invidunt.Lorem ipsum colewort samet consenter discing elitr.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 contact-us-right">
+        <form onsubmit="submitContactForm(event)" class="contact-form text-center">
+          <div class="contact-form__header mb-2">
+            <h6 class="contact-form__title mb-3">Have a question?</h6>
+            <p class="contact-form__paragraph mb-0 mx-auto">
+              Send us a message
+            </p>
+          </div>
+          <input type="text" class="contact-form__input" placeholder="Full Name">
+          <input type="email" class="contact-form__input" placeholder="Email">
+          <textarea class="contact-form__input" placeholder="Message"></textarea>
+          <button class="btn btn-primary w-100">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ========================= faq-section end ========================= -->
+
+<!--====== DOWNLOAD PART START ======-->
+<section class="download-area bg-white">
+  <div class="container">
+    <div class="download-wrapper bg_cover">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 offset-1 col-11">
+          <div class="download-content">
+            <div class="section-title">
+              <h2 class="mb-30 text-white wow fadeInUp" data-wow-delay=".2s">Download the app now</h2>
+              <p class="mb-40 text-white wow fadeInUp" data-wow-delay=".35s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diamnonumy eirmod tempor invidunt labore.</p>
+            </div>
+            <div class="download-btns">
+              <a href='https://play.google.com/store/apps/details?id=com.myshowroom.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' class="btn google-play-btn"><img alt='Get it on Google Play' src='./assets/imgs/google-play-badge.png'/></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 align-self-end col-lg-5 col-11 offset-1 offset-lg-0">
+          <div class="download-img wow fadeInRight" data-wow-delay=".2s">
+            <img src="assets/imgs/cta-right-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--====== DOWNLOAD PART ENDS ======-->
+
+	<!--====== FOOTER PART START ======-->
+	<footer id="footer" class="footer-area bg_cover">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-4 col-md-6">
+					<div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
+						<a href="#" class="mb-35 d-block"><img src="assets/images/logo.svg" alt=""> </a>
+						<p class="mb-35">Lorem ipsum dolor sit aconsetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+						<ul class="social-links">
+							<li><a href="#" class="facebook"><i class="lni lni-facebook-original"></i></a></li>
+							<li><a href="#" class="twitter"><i class="lni lni-twitter-original"></i></a></li>
+							<li><a href="#" class="instagram"><i class="lni lni-instagram-original"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="lni lni-linkedin-original"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+					<div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
+						<h4>Useful Links</h4>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Feature</a></li>
+							<li><a href="#">How it Work</a></li>
+							<li><a href="#">Screenshots</a></li>
+							<li><a href="#">Pricing</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-6">
+					<div class="footer-widget wow fadeInUp" data-wow-delay=".6s">
+						<h4>Product Help</h4>
+						<ul style="padding-left:0 ;">
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Policy</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Team</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6">
+					<div class="footer-widget wow fadeInUp" data-wow-delay=".8s">
+						<h4>Download My Showroom App</h4>
+            <a href='https://play.google.com/store/apps/details?id=com.myshowroom.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' class="btn google-play-btn"><img alt='Get it on Google Play' src='./assets/imgs/google-play-badge.png'/></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-cradit">
+				<p class="text-center mb-0">&copy Copyright <script>{let date = new Date(); document.write(date.getFullYear());}</script> <a href="#" rel="nofollow">My Showroom App</a></p>
+			</div>
+		</div>
+	</footer>
+	<!--====== FOOTER PART ENDS ======-->
+
+	<!--====== BACK TOP TOP PART START ======-->
+	<a href="#" class="back-to-top btn-hover"><i class="lni lni-chevron-up"></i></a>
+	<!--====== BACK TOP TOP PART ENDS ======-->
+  <!-- =================================== -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./assets/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstap.min.js"></script>
+
+  <script src="./assets/js/owl-carousel.js" type="text/javascript"></script>
+
+  <script src="assets/app.js"></script>
+  
+</body>
+
+</html>
